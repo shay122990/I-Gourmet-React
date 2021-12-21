@@ -52,13 +52,44 @@
   text-align: center;
 }
 
-@media only screen and (max-width: 1300px) {
+@media only screen and (max-width: 800px) {
+  .menu {
+    position: relative;
+  }
   .menuList {
     grid-template-columns: 1fr 1fr;
   }
+  .menu .menuTitle {
+    font-size: 30px;
+  }
+  .menuList {
+    width: 200vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
+}
+@media only screen and (max-width: 1280px) {
+  .menu {
+    position: relative;
+  }
+  .menuList {
+    grid-template-columns: 1fr 1fr;
+  }
+  .menu .menuTitle {
+    font-size: 30px;
+  }
+  .menuList {
+    width: 100vw;
+    height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+  }
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 986px) {
   .menuList {
     grid-template-columns: 1fr;
   }

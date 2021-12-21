@@ -13,10 +13,25 @@
 .socialMedia svg {
   color: white;
   margin: 20px;
-  font-size: 70px;
+  font-size: 60px;
   cursor: pointer;
 }
 
 .footer p {
   color: white;
+}
+
+@media only screen and (max-width: 800px) {
+  .footer {
+    height: 100px;
+  }
+  .footer p {
+    text-align: center;
+  }
+  .socialMedia svg {
+    color: white;
+    margin: 20px;
+    font-size: 30px;
+    cursor: pointer;
+  }
 }
