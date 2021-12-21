@@ -57,9 +57,10 @@
     justify-content: center;
     align-items: center;
   }
-  .headerContainer h1,
+  /* .headerContainer h1,
   .headerContainer p {
-  }
+    color: #07090a;
+  } */
 
   .headerContainer {
     margin-left: 0px;
