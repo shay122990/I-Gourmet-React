@@ -1,10 +1,8 @@
 # I-Gourmet a food ordering site with React.
 
-## About The Project/Features
-
 ## Preview
 
-![Initial view](media/image1.gif)
+![Initial view](public/image1.gif)
 
 ## Built With
 
